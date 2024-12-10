@@ -1,0 +1,170 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.homepage {
+    background: url('/mnt/data/AE4D401A-2D2C-4EA8-B61C-30A5928AAD86.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.homepage h1 {
+    font-size: 3rem;
+    color: aqua;
+    text-transform: uppercase;
+}
+
+.homepage p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.button {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    background: transparent;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.page-divider {
+    height: 2px;
+    background: white;
+}
+
+.solutions {
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.solutions h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.solution {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #222;
+}
+
+.impact, .shareholders {
+    background: url('/mnt/data/387107CF-B92C-42E5-88A8-08FEAB288F75.jpeg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.impact h2, .shareholders h2 {
+    color: aqua;
+    font-size: 2rem;
+}
+
+.impact p, .shareholders p {
+    margin: 20px 0;
+}
+
+.contact {
+    background: black;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+ /* Adding contact form styles */
+
+.contact {
+    background: black;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: aqua;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact form button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: darkblue;
+}
+
+.contact p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.contact p a {
+    color: aqua;
+    text-decoration: none;
+}
