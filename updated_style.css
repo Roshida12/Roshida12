@@ -21,8 +21,8 @@ body, html {
     z-index: 1000;
 }
 
-img {
-    background: url('assets/120A635D-8446-41D6-BDFA-9F80AA62209D.JPEG') no-repeat center center/cover;
+.logo {
+    background: url('assets/IMG_5331.PNG') no-repeat center center;
     background-size: contain;
     height: 40px;
     width: 40px;
